@@ -267,3 +267,11 @@ footer i {
 .carousel-control-next-icon {
   filter: invert(1);
 }
+
+
+.review-box {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
