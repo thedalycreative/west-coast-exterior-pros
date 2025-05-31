@@ -275,3 +275,33 @@ footer i {
   flex-direction: column;
   justify-content: center;
 }
+
+
+/*CONTACT US BOX*/
+
+/* Contact Us button – extra large and high-contrast for a black site background */
+.btn-contact-lightbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;             /* bigger text */
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #FFFFFF;     /* white, to stand out on black */
+  color: #000000;                /* black text for readability */
+  border: 3px solid var(--beige);/* subtle brand accent */
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+.btn-contact-lightbox i {
+  font-size: 1.75em;             /* larger icon */
+}
+.btn-contact-lightbox:hover,
+.btn-contact-lightbox:focus {
+  background-color: var(--white);/* beige accent on hover */
+  color: #ff0000;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
