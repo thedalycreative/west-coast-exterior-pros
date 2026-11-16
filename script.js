@@ -38,7 +38,3 @@ window.addEventListener('resize', () => {
     console.log('Window resized. You could trigger layout changes here.');
   }, 250);
 });
-
-//ANALYTICS
-import { Analytics } from "@vercel/analytics/next"
-import { SpeedInsights } from "@vercel/speed-insights/next"
